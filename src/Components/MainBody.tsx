@@ -111,7 +111,7 @@ const MainBody = () => {
     <div className="max-w-3xl mx-auto">
       <div className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} rounded-2xl shadow-xl p-8 transition-colors duration-200`}>
         <div className="flex justify-between items-center mb-8">
-          <h1 className={`text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Talker 1.0</h1>
+          <h1 className={`text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>SmartMan 1.0</h1>
           <button
             onClick={toggleDarkMode}
             className={`p-2 rounded-full ${isDarkMode ? 'bg-gray-700 text-yellow-400' : 'bg-purple-100 text-purple-600'} hover:opacity-80 transition-all`}
