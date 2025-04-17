@@ -1,0 +1,29 @@
+Here's a comprehensive overview of the technologies and programming languages used in this Speech-to-Text application:
+
+Core Technologies:
+
+React (v18.3.1) - Frontend JavaScript library for building the user interface
+TypeScript - For type-safe JavaScript development
+Vite - Build tool and development server
+Key Libraries:
+
+Lucide React - For UI icons (Mic, Copy, Sun/Moon icons, etc.)
+Web Speech API - Browser's built-in speech recognition API
+Styling:
+
+Tailwind CSS - Utility-first CSS framework for styling
+PostCSS - For processing Tailwind CSS
+Autoprefixer - For adding vendor prefixes to CSS
+Development Tools:
+
+ESLint - For code linting and maintaining code quality
+TypeScript ESLint - For TypeScript-specific linting rules
+Key Features Implemented:
+
+Real-time speech-to-text conversion
+Pause/Resume functionality
+Dark/Light mode theming
+Copy to clipboard functionality
+Responsive design
+Accessibility features (ARIA labels)
+The application is built entirely with modern web technologies, running in the browser and utilizing the Web Speech API for speech recognition capabilities. No backend server or additional services are required as it leverages browser-native APIs for all core functionality.
